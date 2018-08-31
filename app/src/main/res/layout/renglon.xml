@@ -29,15 +29,15 @@
         android:padding="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="xdxddxd"
+        android:text="xdxddxdxdxddxdxdxddxdxdxddxdxdxddxdxdxddxd"
         android:id="@+id/item_descripcion"
         />
 
     <Button
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ir"
-        android:layout_marginRight="250dp"
+        android:text="LLamar"
+        android:id="@+id/item_action"
         />
 
     </LinearLayout>

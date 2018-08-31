@@ -6,9 +6,30 @@
     android:orientation="vertical"
    >
 
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Escriba un titulo"
+        android:id="@+id/et_titulo"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Generar noticia random"
+        android:id="@+id/btn_generar"
+        />
+
+    <Switch
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GENERO"
+        android:checked="false"
+        />
+
     <ListView
         android:layout_height="match_parent"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:id="@+id/lv_noticias"
  />
 
